@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NationalParkAPI</name>
+    </assembly>
+    <members>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.GetNationalParks">
+            <summary>
+            Get list of all the national parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.GetNationalPark(System.Int32)">
+            <summary>
+            Get a single national park by Id
+            </summary>
+            <param name="nationalParkId">Enter the Id of the national park</param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.CreateNationalPark(NationalParkAPI.Models.Dtos.NationalParkDto)">
+            <summary>
+            Create new national park
+            </summary>
+            <param name="nationalParkDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.UpdateNationalPark(System.Int32,NationalParkAPI.Models.Dtos.NationalParkDto)">
+            <summary>
+            Update national park
+            </summary>
+            <param name="nationalParkId">Enter the Id of the national park you want to update</param>
+            <param name="nationalParkDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.NationalParksController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete national park
+            </summary>
+            <param name="nationalParkId">Enter the Id of the national park you want to delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.NationalParksV2Controller.GetNationalParks">
+            <summary>
+            Get list of all the national parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.TrailsController.GetTrails">
+            <summary>
+            Get list of all the trails
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.TrailsController.GetTrail(System.Int32)">
+            <summary>
+            Get a single trail by Id
+            </summary>
+            <param name="trailId">Enter the Id of the trail</param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.TrailsController.CreateTrail(NationalParkAPI.Models.Dtos.TrailCreateDto)">
+            <summary>
+            Create new trail
+            </summary>
+            <param name="TrailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.TrailsController.UpdateTrail(System.Int32,NationalParkAPI.Models.Dtos.TrailUpdateDto)">
+            <summary>
+            Update trail
+            </summary>
+            <param name="trailId">Enter the Id of the trail you want to update</param>
+            <param name="trailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParkAPI.Controllers.TrailsController.DeleteTrail(System.Int32)">
+            <summary>
+            Delete taril
+            </summary>
+            <param name="trailId">Enter the Id of the trail you want to delete</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
